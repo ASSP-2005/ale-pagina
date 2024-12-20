@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    font-family: Sour Gummy;
+    font-weight: 50;
+}
+
+a{
+    background-color: white;
+    color: black;
+    padding: 5px 20px;
+    align-items: center;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 300;
+    transition: 0.3s;
+}
+
+a:hover{
+    background-color: black;
+    color: pink;
+    padding: 5px 30px;
+    transition: 0.3s;
+}
+
+body{
+    background-color: pink;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.main-title{
+    font-size: 60px;
+    font-weight: 300;
+    user-select: none;
+}
+
+.main-header{
+    display: flex;
+    justify-content: center;
+
+}
+
+.button-container{
+    display: flex;
+    width: max-content;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.main-body{
+    gap: 20px;
+}
+
+figure{
+    display: flex;
+    justify-content: center;
+}
