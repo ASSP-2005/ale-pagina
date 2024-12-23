@@ -29,6 +29,9 @@ a:hover{
 
 body{
     background-color: pink;
+}
+
+.main-body{
     margin-top: 150px;
     display: flex;
     justify-content: center;
