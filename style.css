@@ -54,7 +54,6 @@ body{
 
 .button-container{
     display: flex;
-    width: max-content;
     align-items: center;
     justify-content: center;
     gap: 30px;
