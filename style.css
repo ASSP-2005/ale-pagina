@@ -40,6 +40,7 @@ body{
     flex-wrap: wrap;
 }
 
+
 .main-title{
     font-size: 60px;
     font-weight: 300;
@@ -54,6 +55,7 @@ body{
 
 .button-container{
     display: flex;
+    width: max-content;
     align-items: center;
     justify-content: center;
     gap: 30px;
@@ -66,4 +68,15 @@ body{
 figure{
     display: flex;
     justify-content: center;
+}
+
+.bubu-body{
+    margin-top: 50px;
+}
+
+.bubu-header{
+    padding: 50px 50px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
