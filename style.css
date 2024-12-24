@@ -105,9 +105,18 @@ figure{
 }
 
 .bubu-audio--button:hover{
-    background-color: black;
+    background-color: white;
     transition: 0.3s;
     cursor:pointer;
+}
+
+.bubu-audio--button__icon{
+    transition:0.3s
+}
+
+.bubu-audio--button__icon:hover{
+    color:var(--dark-pink);
+    transition:0.3s;
 }
 
 .bubu-audio--length{
