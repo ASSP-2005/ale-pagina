@@ -94,6 +94,7 @@ figure{
 
 .bubu-audio--button{
     height: 40px;
+    width: 40px;
     outline: none;
     border-radius: 20px;
     background-color: var(--dark-pink);
@@ -102,6 +103,8 @@ figure{
 .bubu-audio--length{
     height:40px;
     width:fit-content;
+    border-radius: 20px;
+    align-items: center;
     background-color: var(--dark-pink);
 }
 
