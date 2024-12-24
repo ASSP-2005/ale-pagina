@@ -95,10 +95,12 @@ figure{
 .bubu-main--header{
     font-weight: normal;
     font-size: 20px;
+    user-select:none;
 }
 
 .bubu-main--body{
     font-size: 30px;
+    user-select:none;
 }
 
 @media (max-width:700px){
