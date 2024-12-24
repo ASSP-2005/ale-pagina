@@ -96,14 +96,14 @@ figure{
     height: 40px;
     width: 40px;
     outline: none;
-    border-radius: 20px;
+    border-radius: 10px;
     background-color: var(--dark-pink);
 }
 
 .bubu-audio--length{
     height:40px;
     width:fit-content;
-    border-radius: 20px;
+    border-radius: 10px;
     align-items: center;
     background-color: var(--dark-pink);
 }
