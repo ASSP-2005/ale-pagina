@@ -13,7 +13,7 @@
 
 a{
     background-color: white;
-    color: black;
+    color: var(--dark-pink);
     padding: 5px 20px;
     align-items: center;
     border-radius: 10px;
@@ -99,6 +99,13 @@ figure{
     outline: none;
     border-radius: 10px;
     background-color: var(--dark-pink);
+    transition: 0.3s;
+}
+
+.bubu-audio--button:hover{
+    background-color: black;
+    transition: 0.3s;
+    cursor:pointer;
 }
 
 .bubu-audio--length{
@@ -124,6 +131,7 @@ figure{
     font-weight: normal;
     font-size: 20px;
     user-select:none;
+    color: var(--dark-pink);
 }
 
 .bubu-main--body{
