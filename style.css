@@ -96,6 +96,12 @@ figure{
     background-color: var(--dark-pink);
 }
 
+.bubu-audio--length{
+    height:30px;
+    width:100px;
+    background-color: var(--dark-pink);
+}
+
 .bubu-main{
     display: flex;
     flex-direction: column;
