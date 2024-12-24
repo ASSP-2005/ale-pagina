@@ -89,7 +89,7 @@ figure{
     display: flex;
     justify-content:center;
     align-items:center;
-    gap:20px;
+    gap:10px;
     padding-bottom:20px;
 }
 
@@ -103,6 +103,7 @@ figure{
 
 .bubu-audio--length{
     height:40px;
+    padding: 0px 20px;
     width:fit-content;
     border-radius: 10px;
     align-items: center;
