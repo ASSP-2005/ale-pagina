@@ -90,14 +90,14 @@ figure{
 }
 
 .bubu-audio--button{
-    height: 30px;
+    height: 15px;
     outline: none;
     border-radius: 20px;
     background-color: var(--dark-pink);
 }
 
 .bubu-audio--length{
-    height:30px;
+    height:15px;
     width:100px;
     background-color: var(--dark-pink);
 }
