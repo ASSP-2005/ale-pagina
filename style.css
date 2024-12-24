@@ -90,8 +90,9 @@ figure{
 }
 
 .bubu-audio--button{
-    height: 70px;
-    width: 70px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
     background-color: var(--dark-pink);
 }
 
