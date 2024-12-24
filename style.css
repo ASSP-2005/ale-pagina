@@ -6,6 +6,9 @@
 :root{
     font-family: Sour Gummy;
     font-weight: 50;
+
+    /*COLORES*/
+    --dark-pink: #DF6290;
 }
 
 a{
@@ -80,6 +83,16 @@ figure{
     background-image: url(https://i.pinimg.com/originals/ca/97/bd/ca97bde328433c2497b154afdee5f8d7.gif);
     background-size: 70px;
     background-repeat: repeat-x;
+}
+
+.bubu-audio{
+    display: flex;
+}
+
+.bubu-audio--button{
+    height: 70px;
+    width: 70px;
+    background-color: var(--dark-pink);
 }
 
 .bubu-main{
