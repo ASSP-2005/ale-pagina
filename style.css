@@ -9,6 +9,8 @@
 
     /*COLORES*/
     --dark-pink: #E55A6B;
+    --pink-hover: #ef99a8;
+	
 }
 
 a{
@@ -147,7 +149,7 @@ figure{
 }
 
 .bubu-audio--length__slider::-webkit-slider-thumb:hover {
-	background: #e38596;
+	background: var(--pink-hover);
     transition: 0.3s;
     
 }
