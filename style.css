@@ -106,6 +106,7 @@ figure{
 
 .bubu-audio--button:hover{
     background-color: white;
+    color: var(--dark-pink);
     transition: 0.3s;
     cursor:pointer;
 }
