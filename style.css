@@ -173,6 +173,7 @@ figure{
   cursor: pointer;
   border-radius:50px;
   box-shadow: -430px 0 0 400px #ffc0cb;
+}
 .bubu-main{
     display: flex;
     flex-direction: column;
