@@ -10,6 +10,7 @@
     /*COLORES*/
     --dark-pink: #E55A6B;
     --pink-hover: #ef99a8;
+    --dark-pink-hover: #ad3b49;
 	
 }
 
@@ -108,8 +109,7 @@ figure{
 }
 
 .bubu-audio--button:hover{
-    background-color: white;
-    color: var(--dark-pink);
+    background-color: var(--dark-pink-hover);
     transition: 0.3s;
     cursor:pointer;
 }
