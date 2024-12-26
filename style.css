@@ -208,7 +208,7 @@ figure{
 	/*Animacion*/
 	animation-name:meandmybaby;
 	position: relative;
-	animation-duration: 1s;
+	animation-duration: 2s;
 	animation-iteration-count: infinite;
 	animation-timing-function: steps(2, none);
 	
