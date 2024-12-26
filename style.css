@@ -227,9 +227,9 @@ figure{
 	/*Animacion*/
 	animation-name:meandmybaby;
 	position: relative;
-	animation-duration: 2s;
+	animation-duration: 1s;
 	animation-iteration-count: infinite;
-	animation-timing-function: steps(2, none);
+	animation-timing-function: steps(2);
 	
 }
 
