@@ -211,8 +211,8 @@ figure{
 .meandmybaby-img{
 	height: 100px;
 	animation-name:meandmybaby;
-	/*animation-duration: 2s;
 	position: relative;
+	/*animation-duration: 2s;
 	animation-iteration-count: infinite;*/
 	animation: meandmybaby 5s steps(2) linear 0s infinite normal none;
 	
