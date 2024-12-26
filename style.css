@@ -194,6 +194,9 @@ figure{
 .bubu-main--topcontainer{
 	display: flex;
 	flex-direction: row;
+	padding: 0px 40px;
+	gap: 30px
+	
 }
 
 .bubu-main--figure{
@@ -209,6 +212,7 @@ figure{
 	height: 100px;
 	animation-name:meandmybaby;
 	animarion-duration: 2s;
+	position: relative;
 	animation-iteration-count: infinite;
 	
 }
