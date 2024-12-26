@@ -211,17 +211,48 @@ figure{
 .meandmybaby-img{
 	height: 100px;
 	animation-name:meandmybaby;
-	animarion-duration: 2s;
+	/*animation-duration: 2s;
 	position: relative;
-	animation-iteration-count: infinite;
+	animation-iteration-count: infinite;*/
+	animation: meandmybaby 5s steps(2) linear 0s infinite normal none;
 	
 }
 
 @keyframes meandmybaby {
-	0% {top: 0px;}
+	/*0% {top: 0px;}
 	49% {top: 0px;}
 	50% {top: 30px;}
-	100% {top: 30px;}
+	100% {top: 30px;}*/
+	0%,
+	100% {
+		transform: rotate(0deg);
+		transform-origin: 50% 100%;
+	}
+
+	10% {
+		transform: rotate(2deg);
+	}
+
+	20%,
+	40%,
+	60% {
+		transform: rotate(-4deg);
+	}
+
+	30%,
+	50%,
+	70% {
+		transform: rotate(4deg);
+	}
+
+	80% {
+		transform: rotate(-2deg);
+	}
+
+	90% {
+		transform: rotate(2deg);
+	}
+}
 }
 
 .bubu-main--body{
