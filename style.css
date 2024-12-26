@@ -191,6 +191,35 @@ figure{
     color: var(--dark-pink);
 }
 
+.bubu-main--topcontainer{
+	display: flex;
+	flex-direction: row;
+}
+
+.bubu-main--figure{
+	display: flex;
+	justiy-content: center;
+	align-items:center;
+	width: 150px;
+	height: 100px;
+	
+}
+
+.meandmybaby-img{
+	height: 100px;
+	animation-name:meandmybaby;
+	animarion-duration: 2s;
+	animation-iteration-count: infinite;
+	
+}
+
+@keyframes meandmybaby {
+	0% {top: 0px;}
+	49% {top: 0px;}
+	50% {top: 30px;}
+	100% {top: 30px;}
+}
+
 .bubu-main--body{
     font-size: 30px;
     user-select:none;
