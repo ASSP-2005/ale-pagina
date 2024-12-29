@@ -98,7 +98,8 @@ figure{
 /*BUBU*/
 
 .osito-gif{
-	position: relative
+	height:100px;
+	position: absolute;
 	left: 10px;
 	
 }
