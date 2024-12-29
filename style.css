@@ -83,7 +83,6 @@ figure{
     position: absolute;
     left: 50px;
     top: 140px;
-    user-select: none;
 }
 .bubu-body{
     margin-top: 20px;
@@ -283,6 +282,10 @@ figure{
         width: 20px;
         display:none;
     }
+
+	.osito-gif{
+	    height: 30px;
+	}
 
     .bubu-main{
         margin: 0px 20px;
