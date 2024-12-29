@@ -95,6 +95,13 @@ figure{
     justify-content: center;
 }
 
+/*BUBU*/
+
+.osito-gif{
+	position: relative
+	left: 10px;
+	
+}
 .bubu-body{
     margin-top: 20px;
 }
