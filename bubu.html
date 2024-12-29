@@ -14,16 +14,14 @@
     <header class="bubu-header">
     </header>
     <div class="bubu-audio">
-       <!--  <button class="bubu-audio--button" id="play audio">
+        <audio src="tequieromuchobubu.mp3" autoplay>El navegador no soporta audio :( </audio>
+        <button class="bubu-audio--button" onclick="document.getElementById('player').play()">
             <img src="./resources/play-icon.svg" alt="play" class="bubu-audio--button__icon" title="Reproducir">
-        </button>
-        <div class="bubu-audio--length">
-            <input type="range" id="seek-slider" max="100" value="0" class="bubu-audio--length__slider">
-        </div> -->
-        <audio src="tequieromuchobubu.mp3" controls autoplay>
-             El navegador no soporta audio :(
-        </audio>
-        
+        </button> 
+        <button class="bubu-audio--button" onclick="document.getElementById('player').pause()">Pause</button> 
+        <button class="bubu-audio--button" onclick="document.getElementById('player').volume += 0.1">Vol +</button> 
+        <button class="bubu-audio--button" onclick="document.getElementById('player').volume -= 0.1">Vol -</button> 
+
     </div>
     <main class="bubu-main">
         <img src="./resources/ositos.gif" class="osito-gif">
