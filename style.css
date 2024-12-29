@@ -98,10 +98,11 @@ figure{
 /*BUBU*/
 
 .osito-gif{
-	height:100px;
-	position: absolute;
-	left: 10px;
-	user-select: none;
+    height: 80px;
+    position: absolute;
+    left: 50px;
+    top: 140px;
+    user-select: none;
 }
 .bubu-body{
     margin-top: 20px;
