@@ -101,7 +101,7 @@ figure{
 	height:100px;
 	position: absolute;
 	left: 10px;
-	
+	user-select: none;
 }
 .bubu-body{
     margin-top: 20px;
