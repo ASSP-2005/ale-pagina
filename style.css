@@ -83,6 +83,7 @@ figure{
     position: absolute;
     left: 50px;
     top: 140px;
+	user-select:none;
 }
 .bubu-body{
     margin-top: 20px;
