@@ -285,7 +285,9 @@ figure{
     }
 
 	.osito-gif{
-	    height: 30px;
+    	height: 60px;
+        left: 10px;
+        top: 130px;
 	}
 
     .bubu-main{
