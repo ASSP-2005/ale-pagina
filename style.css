@@ -192,7 +192,8 @@ figure{
     padding: 20px;
     /*background-color: white;*/
 	background-image: url('./resources/bg-bubutop.svg');
-	background-repeat: none;
+	background-repeat: no-repeat;
+	background-size: cover;
 	
 }
 
