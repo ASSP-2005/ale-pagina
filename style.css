@@ -190,10 +190,10 @@ figure{
     gap: 20px;
     margin: 0px 100px;
     padding: 20px;
-    /*background-color: white;*/
-	background-image: url('./resources/bg-bubutop.svg');
+    background-color: white;
+	/*background-image: url('./resources/bg-bubutop.svg');
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: cover;*/
 	
 }
 
