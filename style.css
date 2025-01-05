@@ -191,6 +191,7 @@ figure{
     margin: 0px 100px;
     padding: 20px;
     background-color: white;
+	border-radius:50px;
 	/*background-image: url('./resources/bg-bubutop.svg');
 	background-repeat: no-repeat;
 	background-size: cover;*/
