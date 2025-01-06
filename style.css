@@ -165,7 +165,7 @@ figure{
 
 .bubu-audio--length__slider::-webkit-slider-thumb {
   -webkit-appearance: none;
-  width: 40px;
+  width: 20px;
   height: 15px;
   background: #ffc0cb;
   cursor: pointer;
@@ -176,7 +176,7 @@ figure{
 
 .bubu-audio--length__slider::-moz-range-thumb {
   -webkit-appearance: none;
-  width: 40px;
+  width: 20px;
   height: 15px;
   background: #ffc0cb;
   cursor: pointer;
@@ -210,7 +210,7 @@ figure{
 	display: flex;
 	flex-direction: row;
 	padding: 0px 40px;
-	gap: 30px
+	gap: 30px;
 	align-items: center;
 	
 }
