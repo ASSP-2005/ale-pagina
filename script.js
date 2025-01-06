@@ -1,8 +1,8 @@
 const audio = document.getElementById('audio');
 const playButton = document.getElementById('play-btn');
 const progress = document.getElementById('progress');
-// const currentTimeElement = document.getElementById('current-time');
-// const durationElement = document.getElementById('duration');
+const currentTimeElement = document.getElementById('current-time');
+const durationElement = document.getElementById('duration');
 
 const songs = [
   'https://audio.jukehost.co.uk/js3P2sOFgPh8XfFdUmjcSHtMTCMEIend', // Ruta de tu canción 1
