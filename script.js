@@ -48,8 +48,6 @@ function playPauseAudio() {
 audio.addEventListener('timeupdate', updateProgressBar);
 progress.addEventListener('input', setProgress);
 playButton.addEventListener('click', playPauseAudio);
-nextButton.addEventListener('click', nextSong);
-prevButton.addEventListener('click', prevSong);
 
 audio.addEventListener('loadedmetadata', () => {
   durationElement.textContent = formatTime(audio.duration);
