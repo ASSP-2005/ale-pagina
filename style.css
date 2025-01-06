@@ -169,19 +169,20 @@ figure{
   height: 15px;
   background: #ffc0cb;
   cursor: pointer;
-  border-radius:50px;
-  box-shadow: -430px 0 0 400px #ffc0cb;
+  border-radius:500px;
+  box-shadow: -410px 0 0 400px #ffc0cb;
   transition: 0.3s;
 }
 
 .bubu-audio--length__slider::-moz-range-thumb {
   -webkit-appearance: none;
   width: 40px;
-  height: 25px;
+  height: 15px;
   background: #ffc0cb;
   cursor: pointer;
-  border-radius:50px;
-  box-shadow: -430px 0 0 400px #ffc0cb;
+  border-radius:500px;
+  box-shadow: -410px 0 0 400px #ffc0cb;
+	transition: 0.3s;
 }
 .bubu-main{
     display: flex;
