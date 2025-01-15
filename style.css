@@ -8,6 +8,7 @@
     font-weight: 50;
 
     /*COLORES*/
+	--baby-pink: #FFF2F3;
     --dark-pink: #E55A6B;
     --pink-hover: #ef99a8;
     --dark-pink-hover: #ad3b49;
@@ -95,6 +96,7 @@ figure{
 }
 .bubu-body{
     margin-top: 20px;
+	background-color: var(--baby-pink);
 }
 
 .bubu-header{
