@@ -91,7 +91,7 @@ figure{
     height: 80px;
     position: absolute;
     left: 50px;
-    top: 140px;
+    top: 170px
 	user-select:none;
 }
 .bubu-body{
@@ -265,7 +265,7 @@ figure{
 }
 	
 
-@media (max-width:700px){
+@media (max-width:900px){
     
     .bubu-header{
         background-image: url(https://i.pinimg.com/originals/ca/97/bd/ca97bde328433c2497b154afdee5f8d7.gif);
