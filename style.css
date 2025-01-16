@@ -87,6 +87,7 @@ figure{
 	background-size:cover;
 }
 
+		/*COSAS DECORATIVAS*/
 .osito-gif{
     height: 80px;
     position: absolute;
@@ -94,6 +95,21 @@ figure{
     top: 170px
 	user-select:none;
 }
+
+.heartthing{
+	position: absolute;
+	right: 50px;
+	user-select:none;
+}
+
+.besitoosito-gif{
+	position: absolute;
+	right: 50px;
+	user-select:none;
+}
+		/*COSAS DECORATIVAS-FIN*/
+
+
 .bubu-body{
     margin-top: 20px;
 	background-color: var(--baby-pink);
@@ -120,6 +136,7 @@ figure{
     justify-content: center;
     align-items: center;
     height: 40px;
+    width:40px
     border: none;
     border-radius: 10px;
     background-color: var(--dark-pink);
