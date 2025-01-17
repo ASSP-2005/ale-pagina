@@ -92,20 +92,17 @@ figure{
     height: 80px;
     position: absolute;
     left: 50px;
-    top: 170px
+    top: 170px;
 	user-select:none;
 }
 
 .heartthing{
 	position: absolute;
-	right: 50px;
-	user-select:none;
-}
-
-.besitoosito-gif{
-	position: absolute;
-	right: 50px;
-	user-select:none;
+	right: 0px;
+	user-select: none;
+	transform: scaleX(-1);
+	width: 470px;
+	top: 110px;
 }
 		/*COSAS DECORATIVAS-FIN*/
 
