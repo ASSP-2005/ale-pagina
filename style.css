@@ -277,7 +277,12 @@ figure{
 	background-image:url(https://i.pinimg.com/736x/ff/a9/1c/ffa91c3a97ae2d9eba1738a8faf6b3c0.jpg);
 	
 }
-	
+
+@media (max-width:1200px){
+	.heartthing{
+		width:300px;
+	}
+}
 
 @media (max-width:900px){
     
@@ -305,6 +310,17 @@ figure{
 
 	.bubu-main--topcontainer{
 		flex-direction: column;
+	}
+
+	.heartthing{
+		top: 80px;
+		width:250px;
+	}
+}
+
+@media (max-width:400px){
+	.heartthing{
+		width:150px;
 	}
 }
 	
