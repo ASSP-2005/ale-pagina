@@ -211,7 +211,7 @@ figure{
 
 .bubu-timecontainer{
 	display:flex;
-	width: 200px;
+	width: 100px;
 	flex-direction: row;
 	justify-content: flex-end;
 	
