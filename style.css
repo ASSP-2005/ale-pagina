@@ -212,7 +212,8 @@ figure{
 .bubu-timecontainer{
 	display:flex;
 	width: 200px;
-	flex-direction: flex-end;
+	flex-direction: row;
+	justify-content: flex-end;
 	
 }
 
