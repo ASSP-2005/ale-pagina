@@ -310,9 +310,11 @@ figure{
 }
 
 @keyframes bubu-photo {
-	0% {transform: rotate(15deg);}
-	100% {transform: rotate(-15deg);}
+	0% {transform: rotate(10deg);}
+	100% {transform: rotate(-20deg);}
 }
+
+/* ------------------------- DIFERENTES DIMENSIONES --------------------*/
 
 @media (max-width:1200px){
 	.heartthing{
