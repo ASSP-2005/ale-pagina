@@ -208,6 +208,14 @@ figure{
   box-shadow: -410px 0 0 400px #ffc0cb;
 	transition: 0.3s;
 }
+
+.bubu-timecontainer{
+	display:flex;
+	width: 200px;
+	flex-direction: flex-end;
+	
+}
+
 .bubu-main{
     display: flex;
     flex-direction: column;
