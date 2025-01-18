@@ -293,6 +293,27 @@ figure{
 	
 }
 
+.muackmuack-figure{
+	display: flex;
+	justiy-content: center;
+	align-items:center;
+	
+	animation-name:bubu-photo;
+	position: relative;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-timing-function: steps(2);
+}
+
+.muackmuack-jpeg{
+	width:500px
+}
+
+@keyframes bubu-photo {
+	0% {transform: rotate(15deg);}
+	100% {transform: rotate(-15deg);}
+}
+
 @media (max-width:1200px){
 	.heartthing{
 		width:300px;
