@@ -293,6 +293,12 @@ figure{
 	
 }
 
+.muackmuack-container{
+	display:flex;
+	justify-content: center;
+	align-items:center;
+	width:600px;
+
 .muackmuack-figure{
 	animation-name:bubu-photo;
 	position: relative;
