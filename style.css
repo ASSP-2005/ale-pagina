@@ -133,7 +133,7 @@ figure{
     justify-content: center;
     align-items: center;
     height: 40px;
-    width:40px
+    width:40px;
     border: none;
     border-radius: 10px;
     background-color: var(--dark-pink);
@@ -298,6 +298,7 @@ figure{
 	justify-content: center;
 	align-items:center;
 	width:600px;
+}
 
 .muackmuack-figure{
 	animation-name:bubu-photo;
