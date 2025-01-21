@@ -294,10 +294,6 @@ figure{
 }
 
 .muackmuack-figure{
-	display: flex;
-	justiy-content: center;
-	align-items:center;
-	
 	animation-name:bubu-photo;
 	position: relative;
 	animation-duration: 1s;
