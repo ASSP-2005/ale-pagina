@@ -319,7 +319,9 @@ figure{
 }
 
 .bubu-mybaby--title{
-	font-family: 
+	font-family: var(--title-font);
+	font-size: 50px;
+}
 
 /* ------------------------- DIFERENTES DIMENSIONES --------------------*/
 
