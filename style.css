@@ -283,6 +283,7 @@ figure{
 }
 
 .bubu-main--body{
+	font-family: var(--main-font);
     font-size: 30px;
     user-select:none;
 }
