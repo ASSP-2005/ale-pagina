@@ -291,10 +291,10 @@ figure{
 .bubu-mybaby{
 	display: flex;
 	height: 1024px;
-	padding: 248px 0px;
+	padding: 200px 0px;
 	flex-direction: column;
 	align-items: center;
-	gap: 10px;
+	gap: 50px;
 	background-image:url(https://i.pinimg.com/736x/ff/a9/1c/ffa91c3a97ae2d9eba1738a8faf6b3c0.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -316,6 +316,12 @@ figure{
 @keyframes bubu-photo {
 	0% {transform: rotate(10deg);}
 	100% {transform: rotate(-20deg);}
+}
+
+.bubu-mybaby--header {
+    display: flex;
+    padding: 10px 30px;
+    background-color: white;
 }
 
 .bubu-mybaby--title{
