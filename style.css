@@ -378,6 +378,10 @@ figure{
 @media (max-width:700px){
 	.heartthing{
 		width:150px;
+	}
+}
+@media (max-width:470px){
+	.heartthing{
         	top: 150px;
 	}
 }
