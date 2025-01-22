@@ -41,6 +41,10 @@ body{
     background-color: pink;
 }
 
+span{
+	font-family: var(--main-font)
+}
+
 h1{
 	font-family: var(--title-font)
 }
