@@ -4,7 +4,6 @@
 }
 
 :root{
-    font-family: Sour Gummy;
     font-weight: 50;
 
     /*COLORES*/
@@ -12,6 +11,10 @@
     --dark-pink: #E55A6B;
     --pink-hover: #ef99a8;
     --dark-pink-hover: #ad3b49;
+
+	/*FUENTES*/
+	--main-font: 'Sour Gummy';
+	--title-font: 'Schoolbell';
 	
 }
 
@@ -36,6 +39,10 @@ a:hover{
 
 body{
     background-color: pink;
+}
+
+h1{
+	font-family: var(--title-font)
 }
 
 .main-body{
@@ -309,6 +316,9 @@ figure{
 	0% {transform: rotate(10deg);}
 	100% {transform: rotate(-20deg);}
 }
+
+.bubu-mybaby--title{
+	font-family: 
 
 /* ------------------------- DIFERENTES DIMENSIONES --------------------*/
 
