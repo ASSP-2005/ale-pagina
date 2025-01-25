@@ -13,10 +13,10 @@ function updatePlayButton() {
   const img = playButton.querySelector('img');
   if (audio.paused) {
     // playButton.textContent = '▶️';
-    img.src = './resources/play-icon.svg';
+    img.src = 'resources/play-icon.svg';
   } else {
     // playButton.textContent = '⏸️';
-    img.src = './resources/pause-icon.svg';
+    img.src = 'resources/pause-icon.svg';
   }
 }
 
