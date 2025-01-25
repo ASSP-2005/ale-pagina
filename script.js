@@ -10,10 +10,13 @@ const songs = [
 let currentSongIndex = 0;
 
 function updatePlayButton() {
+  const img = playButton.querySelector('img');
   if (audio.paused) {
-    playButton.textContent = '▶️';
+    // playButton.textContent = '▶️';
+    img.src = './resources/play-icon.svg';
   } else {
-    playButton.textContent = '⏸️';
+    // playButton.textContent = '⏸️';
+    img.src = './resources/pause-icon.svg';
   }
 }
 
