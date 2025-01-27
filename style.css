@@ -348,6 +348,7 @@ figure{
     gap: -47px;
     flex-wrap: nowrap;
     justify-content: center;
+	align-items: center;
 }
 
 
@@ -390,6 +391,10 @@ figure{
 	.heartthing{
 		top: 80px;
 		width:250px;
+	}
+
+	.bubu-mybaby--title {
+	    font-size: 50px;
 	}
 }
 
